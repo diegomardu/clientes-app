@@ -5,7 +5,7 @@
 <div class="container">
   <form #form="ngForm" (submit)="onSubmit()" >
 
-    <!--  <div class="row">
+    <div class="row">
           <div class="col-md-12">
               <div class="alert alert-success" role="alert" *ngIf="success == true">
                   Serviço Prestado salvo com sucesso!
@@ -14,7 +14,7 @@
                   {{ erro  }}
               </div>
           </div>
-      </div>-->
+      </div>
 
       <div class="row">
           <div class="col-md-12">
@@ -70,7 +70,7 @@
                   Salvar
               </button>
 
-              <button type="button" routerLink="/servicos-prestados/lista"
+              <button type="button" routerLink="/servico-prestado-listagem"
                       class="btn btn-danger ml-1" >
                   <i class="fa fa-arrow-alt-circle-left" ></i> Voltar
               </button>
